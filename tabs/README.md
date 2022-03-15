@@ -4,13 +4,13 @@ This is a coding challenge from [Piccalilli](https://piccalil.li/) that I wanted
 
 ## Overview
 
-[Challenge details](https://piccalil.li/blog/challenge-005-tabs/)
-[Challenge solution](https://piccalil.li/tutorial/solution-005-tabs/)
+- [Challenge details](https://piccalil.li/blog/challenge-005-tabs/)
+- [Challenge solution](https://piccalil.li/tutorial/solution-005-tabs/)
 
 ## Links
 
 [My solution]()
-[Code]()
+[Code](https://github.com/fyrfli/other-challenges/tree/master/tabs)
 
 ## Screenshots
 
