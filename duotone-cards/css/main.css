@@ -1,0 +1,98 @@
+:root {
+  --color-pink: hsl(309, 89%, 82%);
+  --color-navy: hsl(229, 81%, 25%);
+  --color-navy-opaque: hsla(245, 100%, 15%, 0.77);
+  --color-light: hsl(0, 0%, 100%);
+  --color-dark: hsl(0, 0%, 15%);
+}
+
+/* generics */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5E5E5;
+}
+/* end generics */
+
+.container {
+    /* width: calc(605px + 40px); */
+    margin: 10vh auto;
+    /* margin-top: 20vh; */
+}
+.headline {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cards__items {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 18px;
+    justify-content: center;
+    align-content: center;
+}
+.maria {
+    background-image: url("../Images/image-1.jpg");
+    width: 300px;
+    height: 230px;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size:  201px 230px;
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+}
+.cards__item img {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    opacity: 0.63;
+    display: block;
+    margin: auto;
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(230deg);
+}
+.cards__item img:hover {
+    filter: none;
+    opacity: 1;
+    transition: opacity 2s;
+}
+.cards__item figcaption {
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    margin-top: -35px;
+    position: relative;
+    z-index: 99;
+    padding: 10px 8px;
+    width: 300px;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+    width: calc(900px + 40px);
+    margin-top: 20vh;
+    }
+    .cards__items {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .headline {
+        text-align: left;
+        
+    }
+}

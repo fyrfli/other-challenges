@@ -1,0 +1,67 @@
+/* generics */
+
+:root {
+    --color-light: #f3f3f3;
+    --color-mid: #dedede;
+    --color-dark: #313e4f;
+    --color-slate: #444444;
+    --color-inactive: #4f637d;
+    --color-primary: #2a7bd6;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    width: 60vw;
+    height: 60vh;
+    margin: 10% auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* end generics */
+
+#Summary,
+#Specs,
+#Features,
+#Returns a:anylink {
+    color: var(--color-inactive);
+}
+
+.tab__items {
+    color: var(--color-inactive);
+    text-decoration: underline var(--color-inactive);
+    text-underline-offset: 10px;
+    font-size: 20px;
+}
+
+.tab__items a:anylink {
+    color: var(--color-inactive);
+}
+
+.tab__items a:active {
+    color: var(--color-dark);
+}
+
+nav a:anylink {
+    color: var(--color-inactive);
+}
+
+nav a:active {
+    color: var(--color-dark);
+}
+
+.content__items {
+    margin-top: 40px;
+}
+
+.content__items h2 {
+    color: var(--color-slate);
+}
