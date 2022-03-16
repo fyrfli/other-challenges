@@ -14,4 +14,8 @@ This is the parent repo for all other challenges I find and do.
   [Code](https://github.com/fyrfli/other-challenges/tree/master/tabs) |
   No live site yet.
 
+- [K!sbag](https://freebiesbug.com/psd-freebies/ksbag/), a website design in PDF format that I am HTMLising on my own |
+   [Code](https://github.com/fyrfli/other-challenges/tree/master/kisbag) |
+   No live site yet.
+
 
