@@ -12,6 +12,6 @@ This is the parent repo for all other challenges I find and do.
 
 - [Tabs](https://piccalil.li/blog/challenge-005-tabs/) |
   [Code](https://github.com/fyrfli/other-challenges/tree/master/tabs) |
-  [Live]()
+  No live site yet.
 
 
