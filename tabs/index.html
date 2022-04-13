@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,62 +9,88 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <!-- end google fonts -->
     <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="https://fyrf.li/favicon" type="image/x-icon">
+    <script src="scripts/script.js" defer></script>
+  </head>
+
+  <body>
     <aside>
-        <nav class="tab__items">
-            <a href="#Summary" class="tab__item">Summary</a>
-            <a href="#Specs" class="tab__item">Specifications</a>
-            <a href="#Features" class="tab__item">Features</a>
-            <a href="#Refuns" class="tab__item">Refunds and Returns</a>
-        </nav>
+      <nav class="tab__items">
+        <a href="#Summary" class="tab__item summ active-tab">Summary</a>
+        <a href="#Specs" class="tab__item spec">Specifications</a>
+        <a href="#Features" class="tab__item feat">Features</a>
+        <a href="#Refunds" class="tab__item refu">Refunds and Returns</a>
+      </nav>
     </aside>
     <main class="content__items">
-        <section class="content__item" id="Summary">
-            <h2>This product is good and you should buy it</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis optio soluta ab culpa eius quibusdam obcaecati dolores, animi exercitationem reprehenderit sapiente veritatis iusto deleniti, eveniet debitis autem architecto vero dignissimos ipsa consequatur velit maxime veniam? Nulla, praesentium vero. Ex dolorem, autem saepe doloribus illo fugit.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, consequatur? Dolores odio minus, ab tenetur odit placeat nam aspernatur impedit repellendus obcaecati, repudiandae laborum quo. Tempore, exercitationem. Cumque consequatur accusamus molestias debitis reiciendis sit est, reprehenderit amet soluta cupiditate neque numquam, perferendis animi aperiam distinctio.
-            </p>
-        </section>
-        <section class="content__item" id="Specs">
-            <h2>Technical Details</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, aperiam. Maiores quis ut explicabo eligendi, soluta nisi voluptatem exercitationem provident maxime vero necessitatibus vel cum.
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero rem laboriosam omnis velit corporis obcaecati repudiandae similique est debitis, quo officiis iusto, harum aspernatur porro.
-            </p>
-        </section>
-        <section class="content__item" id="Features">
-            <h2>Features</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, doloremque?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo et fugit consectetur labore accusamus facilis inventore vel cupiditate, nesciunt commodi, amet delectus qui ab. Maxime incidunt illo expedita architecto dolores!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium dolorem enim similique consequuntur inventore?
-            </p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas animi omnis quasi necessitatibus, iusto voluptatum saepe numquam quis ea, facere blanditiis eaque? Expedita, impedit similique, optio obcaecati praesentium reiciendis adipisci minus voluptate hic voluptas saepe, doloremque quia ut facilis non quos totam nobis rem. Voluptates ratione neque corrupti est natus?
-            </p>
-        </section>
-        <section class="content__item" id="Refuns">
-            <h2>Refunds and Returns</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim placeat numquam, at obcaecati, accusantium voluptatem delectus dolores amet facilis minus eaque voluptatum sed voluptate similique? Natus, delectus repellendus?
-            </p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolor soluta eius voluptates pariatur sapiente doloremque quae dolorem blanditiis? Ipsum, beatae? Maxime atque repellat repudiandae deserunt quibusdam non.
-            </p>
-        </section>
+      <section class="content__item summ-tab" id="Summary">
+        <h2 class="content__hdr">This product is good and you should buy it</h2>
+        <p class="content__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis optio soluta ab culpa eius quibusdam
+          obcaecati dolores, animi exercitationem reprehenderit sapiente veritatis iusto deleniti, eveniet debitis autem
+          architecto vero dignissimos ipsa consequatur velit maxime veniam? Nulla, praesentium vero. Ex dolorem, autem
+          saepe doloribus illo fugit.
+        </p>
+        <p class="content__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, consequatur? Dolores odio minus, ab tenetur odit
+          placeat nam aspernatur impedit repellendus obcaecati, repudiandae laborum quo. Tempore, exercitationem. Cumque
+          consequatur accusamus molestias debitis reiciendis sit est, reprehenderit amet soluta cupiditate neque
+          numquam, perferendis animi aperiam distinctio.
+        </p>
+      </section>
+      <section class="content__item spec-tab inactive" id="Specs">
+        <h2 class="content__hdr">Technical Details</h2>
+        <p class="content__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, aperiam. Maiores quis ut explicabo eligendi,
+          soluta nisi voluptatem exercitationem provident maxime vero necessitatibus vel cum.
+        </p>
+        <p class="content__para">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero rem laboriosam omnis velit corporis obcaecati
+          repudiandae similique est debitis, quo officiis iusto, harum aspernatur porro.
+        </p>
+      </section>
+      <section class="content__item feat-tab inactive" id="Features">
+        <h2 class="content__hdr">Features</h2>
+        <p class="content__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, doloremque?
+        </p>
+        <p class="content__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo et fugit consectetur labore accusamus
+          facilis inventore vel cupiditate, nesciunt commodi, amet delectus qui ab. Maxime incidunt illo expedita
+          architecto dolores!
+        </p>
+        <p class="content__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium dolorem enim similique
+          consequuntur inventore?
+        </p>
+        <p class="content__para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas animi omnis quasi necessitatibus, iusto
+          voluptatum saepe numquam quis ea, facere blanditiis eaque? Expedita, impedit similique, optio obcaecati
+          praesentium reiciendis adipisci minus voluptate hic voluptas saepe, doloremque quia ut facilis non quos totam
+          nobis rem. Voluptates ratione neque corrupti est natus?
+        </p>
+      </section>
+      <section class="content__item refu-tab inactive" id="Refunds">
+        <h2 class="content__hdr">Refunds and Returns</h2>
+        <p class="content__para">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim placeat numquam, at obcaecati, accusantium
+          voluptatem delectus dolores amet facilis minus eaque voluptatum sed voluptate similique? Natus, delectus
+          repellendus?
+        </p>
+        <p class="content__para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolor soluta eius voluptates pariatur sapiente
+          doloremque quae dolorem blanditiis? Ipsum, beatae? Maxime atque repellat repudiandae deserunt quibusdam non.
+        </p>
+      </section>
     </main>
-</body>
+    <footer>
+      &copy;<span id="jsyear"></span> Camille Frantz (<a href="https://github.com/fyrfli" target="_blank">@fyrfli</a>).
+      <br />
+      All Rights Reserved
+    </footer>
+  </body>
+
 </html>
