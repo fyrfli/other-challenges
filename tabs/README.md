@@ -9,7 +9,7 @@ This is a coding challenge from [Piccalilli](https://piccalil.li/) that I wanted
 
 ## Links
 
-[My solution]()
+[My solution](https://fyrfli.github.io/other-challenges/tabs/)
 [Code](https://github.com/fyrfli/other-challenges/tree/master/tabs)
 
 ## Screenshots
