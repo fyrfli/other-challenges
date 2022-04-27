@@ -1,0 +1,104 @@
+@light: #f3f3f3;
+@middle: #dedede;
+@dark: #313e4f;
+@slate: #444444;
+@inactive: #4f637d;
+@primary: #2a7bd6;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+
+.underlines () {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.inactive {
+  display: none;
+}
+
+body {
+  width: 370px;
+  margin: 8rem auto;
+}
+
+// "menu"
+
+.nav-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: end;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid @middle;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  color: @inactive;
+}
+
+.nav-item:active,
+.nav-item:focus,
+.nav-item:hover,
+.nav-active {
+  color: @dark;
+  .underlines();
+  text-decoration-color: @dark;
+}
+
+//content
+
+.tab-items {
+  padding: 1.8rem 1.6rem;
+  height: 380px;
+
+}
+
+.tab-item__h2 {
+  font-size: 1.8rem;
+  color: @dark;
+}
+
+.tab-item__para {
+  padding: 1rem 0;
+  color: @slate;
+}
+
+
+
+// footer
+.footer {
+  font-size: 0.9rem;
+  text-align: center;
+  padding-top: 0.8rem;
+}
+
+
+// tablet
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body {
+    width: 460px;
+  }
+}
+
+//desktop
+
+@media only screen and (min-width: 960px) {
+  body {
+    width: 580px;
+  }
+}
