@@ -18,6 +18,7 @@ tabLinks.forEach(function (btn) {
       tabContent[i].classList.add("inactive");
     }
     if (e.currentTarget.classList.contains("summary")) {
+      summaryTab.classList.remove("inactive");
       e.currentTarget.classList.add("nav-active");
 
     } else if (e.currentTarget.classList.contains("specs")) {
